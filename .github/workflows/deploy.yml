@@ -20,20 +20,22 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Stitch HTML Fragments Recursively
+      - name: Create output directory
         run: |
-          cat header.html > index.html
-          python parse.py --rank >> index.html 
-          cat laptophead.html >> index.html
-          find . -type f -name "*.txt" -exec python parse.py "{}" >> index.html \;
-          cat footer.html >> index.html
+          mkdir -p _site
+          cat header.html > _site/index.html
+          python parse.py --rank >> _site/index.html 
+          cat laptophead.html >> _site/index.html
+          find . -type f -name "*.txt" -exec python parse.py "{}" >> _site/index.html \;
+          cat footer.html >> _site/index.html
         env:
           REPO_CONTEXT: ${{ github.repository }}
           BRANCH_NAME: ${{ github.ref_name }}
-      - name: create html page 
+
+      - name: Upload pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: '_site'
 
       - name: Deploy to Github Pages
         uses: actions/deploy-pages@v4
