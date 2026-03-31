@@ -1,7 +1,7 @@
 === FreeBSD Hardware Status Info ===
 
 Running: FreeBSD 16.0-CURRENT #6 main-836ac989933b: Fri Feb 20 10:46:36 EST 2026     XXX@XXX:/usr/obj/XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-Hardware: Laptop 13 (AMD Ryzen 7040Series)
+Hardware: Framework Laptop 13 (AMD Ryzen 7040 Series)
 ------------------------------------
 
 - Graphics
