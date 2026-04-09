@@ -1,23 +1,23 @@
 === FreeBSD Hardware Status Info ===
 
 Running: FreeBSD 15.0-STABLE stable/15-n282812-de344ffd0ace GENERIC
-Hardware: 21F8CTO1WW
+Hardware: Lenovo ThinkPad T14s Gen 4 (AMD)
 ------------------------------------
 
 - Graphics
-  Device 1 Status: UNKNOWN
+  Device 1 Status: DETECTED
     vgapci0@pci0:195:0:0:	class=0x030000 rev=0xdd hdr=0x00 vendor=0x1002 device=0x15bf subvendor=0x17aa subdevice=0x50d8
         vendor     = 'Advanced Micro Devices, Inc. [AMD/ATI]'
         device     = 'Phoenix1'
         class      = display
         subclass   = VGA
 
-  Category Total Score: 0/2
+  Category Total Score: 2/2
 
 --------------------
 
 - Networking
-  Device 1 Status: UNKNOWN
+  Device 1 Status: FAILED
     none3@pci0:1:0:0:	class=0x028000 rev=0x01 hdr=0x00 vendor=0x17cb device=0x1103 subvendor=0x17aa subdevice=0x9309
         vendor     = 'Qualcomm Technologies, Inc'
         device     = 'QCNFA765 Wireless Network Adapter'
@@ -39,18 +39,18 @@ Hardware: 21F8CTO1WW
         class      = multimedia
         subclass   = HDA
 
-  Category Total Score: 0/2
+  Category Total Score: 2/2
 
 --------------------
 
 - Storage
-  Device 1 Status: UNKNOWN
+  Device 1 Status: DETECTED
     nvme0@pci0:2:0:0:	class=0x010802 rev=0x00 hdr=0x00 vendor=0x144d device=0xa80a subvendor=0x144d subdevice=0xa801
         vendor     = 'Samsung Electronics Co Ltd'
         device     = 'NVMe SSD Controller PM9A1/PM9A3/980PRO'
         class      = mass storage
 
-  Category Total Score: 0/2
+  Category Total Score: 2/2
 
 --------------------
 
@@ -63,26 +63,8 @@ Hardware: 21F8CTO1WW
         vendor     = 'Advanced Micro Devices, Inc. [AMD]'
         class      = serial bus
         subclass   = USB
-    xhci2@pci0:197:0:3:	class=0x0c0330 rev=0x00 hdr=0x00 vendor=0x1022 device=0x15c0 subvendor=0x17aa subdevice=0x50d8
-        vendor     = 'Advanced Micro Devices, Inc. [AMD]'
-        class      = serial bus
-        subclass   = USB
-    xhci3@pci0:197:0:4:	class=0x0c0330 rev=0x00 hdr=0x00 vendor=0x1022 device=0x15c1 subvendor=0x17aa subdevice=0x50d8
-        vendor     = 'Advanced Micro Devices, Inc. [AMD]'
-        class      = serial bus
-        subclass   = USB
-    none9@pci0:197:0:5:	class=0x0c0340 rev=0x00 hdr=0x00 vendor=0x1022 device=0x1668 subvendor=0x17aa subdevice=0x50d8
-        vendor     = 'Advanced Micro Devices, Inc. [AMD]'
-        device     = 'Pink Sardine USB4/Thunderbolt NHI controller'
-        class      = serial bus
-        subclass   = USB
-    none10@pci0:197:0:6:	class=0x0c0340 rev=0x00 hdr=0x00 vendor=0x1022 device=0x1669 subvendor=0x17aa subdevice=0x50d8
-        vendor     = 'Advanced Micro Devices, Inc. [AMD]'
-        device     = 'Pink Sardine USB4/Thunderbolt NHI controller'
-        class      = serial bus
-        subclass   = USB
 
-  Category Total Score: 0/2
+  Category Total Score: 2/2
 
 --------------------
 
