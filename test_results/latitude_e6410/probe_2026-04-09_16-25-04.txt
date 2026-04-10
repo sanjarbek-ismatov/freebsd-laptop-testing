@@ -12,7 +12,7 @@ Hardware: Latitude E6410
         class      = display
         subclass   = VGA
 
-  Category Total Score: 2/2
+  Category Total Score: 0.5/2
 
 --------------------
 
